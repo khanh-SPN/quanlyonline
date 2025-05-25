@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background_student"
+    android:padding="16dp">
+
+    <!-- Phần loading -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đang tải tin nhắn..."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="#FF6D00"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <!-- RecyclerView cho tin nhắn -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bottom_nav_student_color"
+        android:visibility="visible" />
+
+    <!-- Phần nhập tin nhắn -->
+    <LinearLayout
+        android:id="@+id/input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/message_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_background"
+            android:hint="Nhập tin nhắn..."
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B0FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_send"
+            android:tint="#FF6D00"
+            android:contentDescription="Gửi tin nhắn" />
+
+    </LinearLayout>
+
+    <!-- Nút thêm thành viên -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_member_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:backgroundTint="#FF6D00"
+        android:src="@android:drawable/ic_input_add"
+        app:fabSize="normal"
+        app:tint="#FFFFFF"
+        android:contentDescription="Thêm thành viên" />
+
+</LinearLayout>

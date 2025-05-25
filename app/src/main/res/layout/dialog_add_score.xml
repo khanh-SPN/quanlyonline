@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/card_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm điểm số"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/subject_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp" />
+
+    <Spinner
+        android:id="@+id/semester_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/midterm_score_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm Giữa kỳ"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0FFFFFF" />
+
+    <EditText
+        android:id="@+id/final_score_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm Cuối kỳ"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0FFFFFF" />
+
+    <EditText
+        android:id="@+id/date_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày nhập"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0FFFFFF" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:backgroundTint="#FF6D00"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

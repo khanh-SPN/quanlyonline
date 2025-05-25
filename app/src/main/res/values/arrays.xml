@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="receivers">
+        <item>Phụ huynh 1 (user_002)</item>
+        <item>Phụ huynh 2 (user_003)</item>
+    </string-array>
+    <string-array name="students">
+        <item>Le Van C (student_001)</item>
+        <item>Nguyen Van D (student_002)</item>
+    </string-array>
+    <string-array name="subjects">
+        <item>Math</item>
+        <item>Literature</item>
+    </string-array>
+    <string-array name="score_types">
+        <item>Midterm</item>
+        <item>Final</item>
+        <item>Quiz</item>
+    </string-array>
+    <string-array name="semesters">
+        <item>Học Kỳ 1</item>
+        <item>Học Kỳ 2</item>
+    </string-array>
+</resources>

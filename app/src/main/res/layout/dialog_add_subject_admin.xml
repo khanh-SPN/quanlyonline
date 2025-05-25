@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/admin_dialog_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm/Sửa Môn Học"
+        android:textColor="#E0E1DD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/subject_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/admin_edittext_background"
+        android:hint="Tên môn học (ví dụ: Toán)"
+        android:padding="12dp"
+        android:textColor="#E0E1DD"
+        android:textColorHint="#B0E0E1DD" />
+
+    <Spinner
+        android:id="@+id/subject_class_id_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/admin_edittext_background"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/admin_button_background"
+        android:text="Lưu"
+        android:textColor="#0D1B2A"
+        android:textSize="16sp" />
+
+</LinearLayout>

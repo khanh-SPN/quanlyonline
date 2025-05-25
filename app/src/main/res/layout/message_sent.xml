@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="end">
+
+    <TextView
+        android:id="@+id/sender_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Văn A"
+        android:textColor="#FF6D00"
+        android:textSize="12sp"
+        android:layout_gravity="end" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_sent_background"
+        android:padding="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào mọi người!"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timestamp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08:35 PM"
+        android:textColor="#B0B0B0"
+        android:textSize="12sp"
+        android:layout_gravity="end" />
+
+</LinearLayout>

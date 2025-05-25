@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/notification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông báo lịch học"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/notification_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp 10A1 có lịch học Toán vào 2025-05-20"
+        android:textColor="#B0FFFFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/notification_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Người gửi: user_001"
+        android:textColor="#B0FFFFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/notification_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01/01/2025 00:00"
+        android:textColor="#B0FFFFFF"
+        android:textSize="12sp" />
+
+</LinearLayout>

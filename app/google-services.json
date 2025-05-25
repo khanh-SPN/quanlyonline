@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "581605530480",
+    "firebase_url": "https://quanlyonline-1c06a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "quanlyonline-1c06a",
+    "storage_bucket": "quanlyonline-1c06a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581605530480:android:c7d113851fa35188584db5",
+        "android_client_info": {
+          "package_name": "com.example.quanlyonline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcIe6_9leexKxwj6EUb3TT7KoJg6RH_js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

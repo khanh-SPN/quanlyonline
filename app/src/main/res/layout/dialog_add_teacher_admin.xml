@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/admin_dialog_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm/Sửa Giáo Viên"
+        android:textColor="#E0E1DD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/teacher_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/admin_edittext_background"
+        android:hint="Tên đăng nhập"
+        android:padding="12dp"
+        android:textColor="#E0E1DD"
+        android:textColorHint="#B0E0E1DD" />
+
+    <EditText
+        android:id="@+id/teacher_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/admin_edittext_background"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="#E0E1DD"
+        android:textColorHint="#B0E0E1DD" />
+
+    <EditText
+        android:id="@+id/teacher_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/admin_edittext_background"
+        android:hint="Họ và tên"
+        android:padding="12dp"
+        android:textColor="#E0E1DD"
+        android:textColorHint="#B0E0E1DD" />
+
+    <EditText
+        android:id="@+id/teacher_phone_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/admin_edittext_background"
+        android:hint="Số điện thoại"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:textColor="#E0E1DD"
+        android:textColorHint="#B0E0E1DD" />
+
+    <EditText
+        android:id="@+id/teacher_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/admin_edittext_background"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="#E0E1DD"
+        android:textColorHint="#B0E0E1DD" />
+
+    <Spinner
+        android:id="@+id/teacher_class_managed_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/admin_edittext_background"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/admin_button_background"
+        android:text="Lưu"
+        android:textColor="#0D1B2A"
+        android:textSize="16sp" />
+
+</LinearLayout>

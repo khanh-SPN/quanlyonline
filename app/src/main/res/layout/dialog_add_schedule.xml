@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm/Sửa Lịch Học"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/subject_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Môn học"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0FFFFFF" />
+
+    <EditText
+        android:id="@+id/date_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Ngày (YYYY-MM-DD)"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0FFFFFF" />
+
+    <EditText
+        android:id="@+id/time_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Thời gian (HH:MM)"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0FFFFFF" />
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Mô tả"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0FFFFFF" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:text="Lưu"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>

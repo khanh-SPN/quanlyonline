@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_classes"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Lớp học" />
+    <item
+        android:id="@+id/nav_students"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Học sinh" />
+    <item
+        android:id="@+id/nav_teachers"
+        android:icon="@drawable/ic_menu_user"
+        android:title="Giáo viên" />
+    <item
+        android:id="@+id/nav_subjects"
+        android:icon="@drawable/ic_menu_book"
+        android:title="Môn học" />
+</menu>
