@@ -27,9 +27,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="14dp"
         android:background="@android:color/transparent"
+        android:contentDescription="Đăng xuất"
         android:src="@android:drawable/ic_menu_close_clear_cancel"
-        android:tint="@android:color/white"
-        android:contentDescription="Đăng xuất" />
+        android:tint="@color/orange" />
 
 </RelativeLayout>

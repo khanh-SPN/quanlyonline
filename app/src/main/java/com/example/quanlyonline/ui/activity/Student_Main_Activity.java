@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import com.example.quanlyonline.R;
+import com.example.quanlyonline.StudentProfileFragment;
 import com.example.quanlyonline.ui.fragment.Student_Group_Chat_Fragment;
 import com.example.quanlyonline.ui.fragment.Student_Notification_List_Fragment;
 import com.example.quanlyonline.ui.fragment.Student_Schedule_List_Fragment;
@@ -42,7 +43,13 @@ public class Student_Main_Activity extends AppCompatActivity {
             return;
         }
 
-        bottomNavigationView.setOnItemSelectedListener(item -> {
+        // Hiển thị StudentProfileFragment làm fragment mặc định sau khi đăng nhập
+        if (savedInstanceState == null) {
+            loadFragment(new StudentProfileFragment());
+        }
+
+        // Xử lý sự kiện nhấn vào các tab trong BottomNavigationView
+        bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
             Fragment selectedFragment = null;
             int itemId = item.getItemId();
             if (itemId == R.id.nav_schedules) {
@@ -69,14 +76,13 @@ public class Student_Main_Activity extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
-
-        loadFragment(new Student_Schedule_List_Fragment());
     }
 
     private void loadFragment(Fragment fragment) {
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.fragment_container, fragment)
+                .addToBackStack(null)
                 .commit();
     }
 }
