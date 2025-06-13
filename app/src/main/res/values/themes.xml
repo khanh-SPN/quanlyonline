@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme -->
-    <style name="Theme.QuanLyOnline" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.QuanLyOnline" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color -->
         <item name="colorPrimary">@color/orange</item>
         <item name="colorPrimaryVariant">@color/yellow</item>
@@ -24,7 +24,7 @@
     </style>
 
     <!-- Theme cho giáo viên (tông vàng) -->
-    <style name="Theme.QuanLyOnline.Teacher" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.QuanLyOnline.Teacher" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color -->
         <item name="colorPrimary">@color/orange</item>
         <item name="colorPrimaryVariant">@color/yellow</item>
@@ -42,7 +42,7 @@
     </style>
 
     <!-- Theme cho admin (tông đen óng ánh) -->
-    <style name="Theme.QuanLyOnline.Admin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.QuanLyOnline.Admin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/shiny_black</item>
         <item name="colorPrimaryVariant">@color/dark_shiny</item>
         <item name="colorOnPrimary">@color/silver</item>
@@ -66,7 +66,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="Theme.QuanLyOnline.Student" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.QuanLyOnline.Student" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/student_primary</item>
         <item name="colorPrimaryVariant">@color/student_primary_dark</item>
         <item name="colorOnPrimary">@android:color/white</item>
